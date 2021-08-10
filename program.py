@@ -45,7 +45,7 @@ def title_changes(og_title):
 
 
 # find each element in xml and replace text
-for title in dom.iterfind(".to_change/book/title"):
+for title in dom.iterfind("./to_change/book/title"):
     print('og title: ' + str(title.text))
     title.text = title_changes(str(title.text))
     print('new title: ' + str(title.text))
