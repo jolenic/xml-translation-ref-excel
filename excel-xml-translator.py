@@ -1,10 +1,9 @@
-import os
 import sys
 
 import xlrd
 from xml.etree import ElementTree as ET
 
-# may need to run pip install xlrd in console?  Not 100% sure
+# may need to run pip install xlrd in console
 
 # First, get excel file, read into program, and create a dictionary of key-value pairs
 # that will be used to modify xml file
@@ -59,12 +58,6 @@ sys.exit()
 
 # If that is targeting the correct items, comment it out and continue
 
-found_items = 0
-for name in tree.findall('./querySubject/queryItem/name'):
-    if name.attrib['locale'] == "en":
-        print(name.text)
-        found_items += 1
-print("Total items found: " + str(found_items))
 
 # create counters to confirm changes made
 changed = 0
