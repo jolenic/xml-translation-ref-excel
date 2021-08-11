@@ -11,6 +11,8 @@ from xml.etree import ElementTree
 # get path for excel file
 excel_file_name = 'nato-phonetic-alphabet.xls'
 excel_full_file = os.path.abspath(os.path.join('data', excel_file_name))
+# or directly copy-pasted by adding an r in front of the string:
+# excel_full_file = r"C:\Users\jenni\PycharmProjects\xml-translation-ref-excel\data\nato-phonetic-alphabet.xls"
 
 # for excel reading: read column names into dictionary as key-value pairs
 # when parsing xml, use dictionary lookups to change value
@@ -37,6 +39,7 @@ for i in range(sheet.nrows):
 # get path for xml file
 xml_file_name = 'books-sample.xml'
 xml_full_file = os.path.abspath(os.path.join('data', xml_file_name))
+
 
 # get element tree for xml file
 dom = ElementTree.parse(xml_full_file)

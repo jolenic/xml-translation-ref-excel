@@ -1,0 +1,1553 @@
+<namespace>
+    <name locale="en">Business View</name>
+    <name locale="fr">(fr) New Namespace2</name>
+    <name locale="de">(de) New Namespace2</name>
+    <name locale="ja">(ja) New Namespace2</name>
+    <name locale="ru">(ru) New Namespace2</name>
+    <name locale="zh-cn">(zh-cn) New Namespace2</name>
+    <name locale="zh-sg">(zh-sg) New Namespace2</name>
+    <name locale="zh">(zh) New Namespace2</name>
+    <name locale="zh-tw">(zh-tw) New Namespace2</name>
+    <name locale="ko">(ko) New Namespace2</name>
+    <name locale="pt-br">(pt-br) New Namespace2</name>
+    <name locale="es">(es) New Namespace2</name>
+    <name locale="it">(it) New Namespace2</name>
+    <name locale="cs">(cs) New Namespace2</name>
+    <name locale="hu">(hu) New Namespace2</name>
+    <name locale="pl">(pl) New Namespace2</name>
+    <name locale="ro">(ro) New Namespace2</name>
+    <name locale="tr">(tr) New Namespace2</name>
+    <name locale="kk">(kk) New Namespace2</name>
+    <lastChanged>2021-08-11T08:54:40</lastChanged>
+    <lastChangedBy>admin admin</lastChangedBy>
+    <querySubject status="valid">
+        <name locale="en">COGIPF_RUNJOB</name>
+        <name locale="fr">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="de">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="ja">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="ru">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="zh-cn">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="zh-sg">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="zh">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="zh-tw">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="ko">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="pt-br">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="es">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="it">COGIPF_RUNJOB_COGIPF_RUNJOB</name>
+        <name locale="cs">(cs) COGIPF_RUNJOB_(cs) COGIPF_RUNJOB</name>
+        <name locale="hu">(hu) COGIPF_RUNJOB_(hu) COGIPF_RUNJOB</name>
+        <name locale="pl">(pl) COGIPF_RUNJOB_(pl) COGIPF_RUNJOB</name>
+        <name locale="ro">(ro) COGIPF_RUNJOB_(ro) COGIPF_RUNJOB</name>
+        <name locale="tr">(tr) COGIPF_RUNJOB_(tr) COGIPF_RUNJOB</name>
+        <name locale="kk">(kk) COGIPF_RUNJOB_(kk) COGIPF_RUNJOB</name>
+        <lastChanged>2021-08-10T18:33:13</lastChanged>
+        <lastChangedBy>admin admin</lastChangedBy>
+        <property name="included" type="hidden">true</property>
+        <definition>
+            <modelQuery>
+                <sql type="cognos">Select <column>*</column>from
+                    <table />
+                </sql>
+            </modelQuery>
+        </definition>
+        <queryItem>
+            <name locale="en">HOST_IPADDR</name>
+            <name locale="fr">ADRESSE IP DE L'H&#212;TE</name>
+            <name locale="de">HOST-IP-ADRESSE</name>
+            <name locale="ja">&#12507;&#12473;&#12488;&#12398; IP &#12450;&#12489;&#12524;&#12473;</name>
+            <name locale="ru">IPADDR &#1059;&#1047;&#1051;&#1040;</name>
+            <name locale="zh-cn">HOST IPADDR</name>
+            <name locale="zh-sg">HOST IPADDR</name>
+            <name locale="zh">HOST IPADDR</name>
+            <name locale="zh-tw">&#20027;&#27231; IP &#20301;&#22336;</name>
+            <name locale="ko">&#54840;&#49828;&#53944; IPADDR</name>
+            <name locale="pt-br">END IP HOST</name>
+            <name locale="es">DIRIP HOST</name>
+            <name locale="it">INDIRIZZOIP HOST</name>
+            <name locale="cs">ADRESA IP HOSTITELE</name>
+            <name locale="hu">GAZDASZ&#193;M&#205;T&#211;G&#201;P IPADDR</name>
+            <name locale="pl">HOST IPADDR</name>
+            <name locale="ro">ADR IP GAZD&#258;</name>
+            <name locale="tr">ANAS&#304;STEM IPADDR</name>
+            <name locale="kk">&#1178;&#1054;&#1053;&#1040;&#1178;&#1058;&#1067;&#1186; IP &#1052;&#1045;&#1050;&#1045;&#1053;&#1046;&#1040;&#1049;&#1067;</name>
+            <lastChanged>2021-08-10T18:34:06</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[HOST IPADDR]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>128</precision>
+            <scale>0</scale>
+            <size>258</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">HOST_PORT</name>
+            <name locale="fr">PORT H&#212;TE</name>
+            <name locale="de">HOST-PORT</name>
+            <name locale="ja">&#12507;&#12473;&#12488;&#12398;&#12509;&#12540;&#12488;&#30058;&#21495;</name>
+            <name locale="ru">&#1055;&#1054;&#1056;&#1058; &#1059;&#1047;&#1051;&#1040;</name>
+            <name locale="zh-cn">HOST PORT</name>
+            <name locale="zh-sg">HOST PORT</name>
+            <name locale="zh">HOST PORT</name>
+            <name locale="zh-tw">&#20027;&#27231;&#36899;&#25509;&#22496;</name>
+            <name locale="ko">&#54840;&#49828;&#53944; &#54252;&#53944;</name>
+            <name locale="pt-br">PORTA DO HOST</name>
+            <name locale="es">PUERTO DE HOST</name>
+            <name locale="it">PORTA HOST</name>
+            <name locale="cs">PORT HOSTITELE</name>
+            <name locale="hu">GAZDASZ&#193;M&#205;T&#211;G&#201;P PORTJA</name>
+            <name locale="pl">HOST PORT</name>
+            <name locale="ro">PORT GAZD&#258;</name>
+            <name locale="tr">ANAS&#304;STEM KAPISI</name>
+            <name locale="kk">&#1178;&#1054;&#1053;&#1040;&#1178; &#1055;&#1054;&#1056;&#1058;&#1067;</name>
+            <lastChanged>2021-08-10T18:34:33</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[HOST PORT]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int32</datatype>
+            <precision>10</precision>
+            <scale>0</scale>
+            <size>4</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">PROC_ID</name>
+            <name locale="fr">IDENTIFICATEUR DE PROCESSUS</name>
+            <name locale="de">PROZESS-ID</name>
+            <name locale="ja">&#20966;&#29702; ID</name>
+            <name locale="ru">PROC ID</name>
+            <name locale="zh-cn">PROC ID</name>
+            <name locale="zh-sg">PROC ID</name>
+            <name locale="zh">PROC ID</name>
+            <name locale="zh-tw">PROC ID</name>
+            <name locale="ko">&#54532;&#47196;&#49464;&#49828; ID</name>
+            <name locale="pt-br">ID PROC</name>
+            <name locale="es">ID DE PROC</name>
+            <name locale="it">ID PROC</name>
+            <name locale="cs">ID PROCEDURY</name>
+            <name locale="hu">FOLYAMATAZONOS&#205;T&#211;</name>
+            <name locale="pl">PROC ID</name>
+            <name locale="ro">ID PROC</name>
+            <name locale="tr">YORDAM TANITICISI</name>
+            <name locale="kk">PROC ID</name>
+            <lastChanged>2021-08-10T18:34:41</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[PROC ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int32</datatype>
+            <precision>10</precision>
+            <scale>0</scale>
+            <size>4</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">TIME_STAMP</name>
+            <name locale="fr">Date-heure</name>
+            <name locale="de">Zeitstempel</name>
+            <name locale="ja">&#12479;&#12452;&#12512;&#12473;&#12479;&#12531;&#12503;</name>
+            <name locale="ru">&#1042;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1072;&#1103; &#1084;&#1077;&#1090;&#1082;&#1072;</name>
+            <name locale="zh-cn">&#26102;&#38388;&#25139;</name>
+            <name locale="zh-sg">&#26102;&#38388;&#25139;</name>
+            <name locale="zh">&#26102;&#38388;&#25139;</name>
+            <name locale="zh-tw">&#26178;&#38291;&#25139;</name>
+            <name locale="ko">&#53440;&#51076;&#49828;&#53484;&#54532;</name>
+            <name locale="pt-br">Carimbo de data/hora</name>
+            <name locale="es">Marca de hora</name>
+            <name locale="it">Timestamp</name>
+            <name locale="cs">(cs) TIME STAMP</name>
+            <name locale="hu">(hu) TIME STAMP</name>
+            <name locale="pl">(pl) TIME STAMP</name>
+            <name locale="ro">(ro) TIME STAMP</name>
+            <name locale="tr">(tr) TIME STAMP</name>
+            <name locale="kk">(kk) TIME STAMP</name>
+            <lastChanged>2021-08-10T18:34:52</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[TIME STAMP]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>dateTime</datatype>
+            <precision>0</precision>
+            <scale>0</scale>
+            <size>12</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">TIME_ZONE OFFSET</name>
+            <name locale="fr">D&#233;calage horaire</name>
+            <name locale="de">Zeitzonenverschiebung</name>
+            <name locale="ja">&#12479;&#12452;&#12512; &#12478;&#12540;&#12531;&#12398;&#26178;&#24046;</name>
+            <name locale="ru">&#1057;&#1076;&#1074;&#1080;&#1075; &#1095;&#1072;&#1089;&#1086;&#1074;&#1086;&#1075;&#1086; &#1087;&#1086;&#1103;&#1089;&#1072;</name>
+            <name locale="zh-cn">&#26102;&#21306;&#20559;&#31227;</name>
+            <name locale="zh-sg">&#26102;&#21306;&#20559;&#31227;</name>
+            <name locale="zh">&#26102;&#21306;&#20559;&#31227;</name>
+            <name locale="zh-tw">&#26178;&#21312;&#20559;&#31227;</name>
+            <name locale="ko">&#49884;&#44036;&#45824; &#50724;&#54532;&#49483;</name>
+            <name locale="pt-br">Desvio de fuso hor&#225;rio</name>
+            <name locale="es">Desfase de zona horaria</name>
+            <name locale="it">Offset fuso orario</name>
+            <name locale="cs">(cs) TIME ZONE OFFSET</name>
+            <name locale="hu">(hu) TIME ZONE OFFSET</name>
+            <name locale="pl">(pl) TIME ZONE OFFSET</name>
+            <name locale="ro">(ro) TIME ZONE OFFSET</name>
+            <name locale="tr">(tr) TIME ZONE OFFSET</name>
+            <name locale="kk">(kk) TIME ZONE OFFSET</name>
+            <lastChanged>2021-08-10T18:35:06</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[TIME ZONE OFFSET]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int32</datatype>
+            <precision>10</precision>
+            <scale>0</scale>
+            <size>4</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">SESSION_ID</name>
+            <name locale="fr">Identificateur de session</name>
+            <name locale="de">Sitzungskennung</name>
+            <name locale="ja">&#12475;&#12483;&#12471;&#12519;&#12531; ID</name>
+            <name locale="ru">&#1048;&#1076;&#1077;&#1085;&#1090;&#1080;&#1092;&#1080;&#1082;&#1072;&#1090;&#1086;&#1088; &#1089;&#1077;&#1072;&#1085;&#1089;&#1072;</name>
+            <name locale="zh-cn">&#20250;&#35805; ID</name>
+            <name locale="zh-sg">&#20250;&#35805; ID</name>
+            <name locale="zh">&#20250;&#35805; ID</name>
+            <name locale="zh-tw">&#24037;&#20316;&#38542;&#27573; ID</name>
+            <name locale="ko">&#49464;&#49496; ID</name>
+            <name locale="pt-br">ID de sess&#227;o</name>
+            <name locale="es">ID de sesi&#243;n</name>
+            <name locale="it">ID sessione</name>
+            <name locale="cs">(cs) SESSION ID</name>
+            <name locale="hu">(hu) SESSION ID</name>
+            <name locale="pl">(pl) SESSION ID</name>
+            <name locale="ro">(ro) SESSION ID</name>
+            <name locale="tr">(tr) SESSION ID</name>
+            <name locale="kk">(kk) SESSION ID</name>
+            <lastChanged>2021-08-10T18:35:14</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[SESSION ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">REQUEST_ID</name>
+            <name locale="fr">IDENTIFICATEUR DE DEMANDE</name>
+            <name locale="de">ANFORDERUNGS-ID</name>
+            <name locale="ja">&#35201;&#27714; ID</name>
+            <name locale="ru">&#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056; &#1047;&#1040;&#1055;&#1056;&#1054;&#1057;&#1040;</name>
+            <name locale="zh-cn">REQUEST ID</name>
+            <name locale="zh-sg">REQUEST ID</name>
+            <name locale="zh">REQUEST ID</name>
+            <name locale="zh-tw">&#35531;&#27714; ID</name>
+            <name locale="ko">&#50836;&#52397; ID</name>
+            <name locale="pt-br">ID DE SOLICITA&#199;&#195;O</name>
+            <name locale="es">ID DE SOLICITUD</name>
+            <name locale="it">ID RICHIESTA</name>
+            <name locale="cs">ID PO&#381;ADAVKU</name>
+            <name locale="hu">K&#201;RELEMAZONOS&#205;T&#211;</name>
+            <name locale="pl">ID &#379;&#260;DANIA</name>
+            <name locale="ro">ID CERERE</name>
+            <name locale="tr">&#304;STEK TANITICISI</name>
+            <name locale="kk">&#1057;&#1200;&#1056;&#1040;&#1053;&#1067;&#1057; &#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056;&#1067;</name>
+            <lastChanged>2021-08-10T18:35:25</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[REQUEST ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>false</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">STEP_ID</name>
+            <name locale="fr">IDENTIFICATEUR DE T&#194;CHE</name>
+            <name locale="de">SCHRITT-ID</name>
+            <name locale="ja">&#12473;&#12486;&#12483;&#12503; ID</name>
+            <name locale="ru">&#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056; &#1064;&#1040;&#1043;&#1040;</name>
+            <name locale="zh-cn">STEP ID</name>
+            <name locale="zh-sg">STEP ID</name>
+            <name locale="zh">STEP ID</name>
+            <name locale="zh-tw">&#27493;&#39519; ID</name>
+            <name locale="ko">&#45800;&#44228; ID</name>
+            <name locale="pt-br">ID DE ETAPA</name>
+            <name locale="es">ID DE PASO</name>
+            <name locale="it">ID PASSAGGIO</name>
+            <name locale="cs">ID KROKU</name>
+            <name locale="hu">L&#201;P&#201;SAZONOS&#205;T&#211;</name>
+            <name locale="pl">ID KROKU</name>
+            <name locale="ro">ID PAS</name>
+            <name locale="tr">ADIM TANITICISI</name>
+            <name locale="kk">&#1178;&#1040;&#1044;&#1040;&#1052; &#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056;&#1067;</name>
+            <lastChanged>2021-08-10T18:35:31</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[STEP ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">SUBREQUEST_ID</name>
+            <name locale="fr">IDENTIFICATEUR DE SOUS-DEMANDE</name>
+            <name locale="de">UNTERANFORDERUNGS-ID</name>
+            <name locale="ja">&#20108;&#27425;&#35201;&#27714; ID</name>
+            <name locale="ru">&#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056; &#1055;&#1054;&#1044;&#1047;&#1040;&#1055;&#1056;&#1054;&#1057;&#1040;</name>
+            <name locale="zh-cn">SUBREQUEST ID</name>
+            <name locale="zh-sg">SUBREQUEST ID</name>
+            <name locale="zh">SUBREQUEST ID</name>
+            <name locale="zh-tw">&#23376;&#35531;&#27714; ID</name>
+            <name locale="ko">&#54616;&#50948; &#50836;&#52397; ID</name>
+            <name locale="pt-br">ID DO SUBREQUEST</name>
+            <name locale="es">ID DE SOLICITUD SECUNDARIA</name>
+            <name locale="it">ID SOTTORICHIESTA</name>
+            <name locale="cs">ID D&#205;L&#268;&#205;HO PO&#381;ADAVKU</name>
+            <name locale="hu">ALK&#201;RELEM AZONOS&#205;T&#211;JA</name>
+            <name locale="pl">ID PODRZ&#280;DNEGO &#379;&#260;DANIA</name>
+            <name locale="ro">SUBREQUEST ID</name>
+            <name locale="tr">ALT &#304;STEK TANITICISI</name>
+            <name locale="kk">&#1058;&#1256;&#1052;&#1045;&#1053;&#1043;&#1030; &#1057;&#1200;&#1056;&#1040;&#1059; &#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056;&#1067;</name>
+            <lastChanged>2021-08-10T18:35:41</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[SUBREQUEST ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">THREAD_ID</name>
+            <name locale="fr">IDENTIFICATEUR DE THREAD</name>
+            <name locale="de">THREAD-ID</name>
+            <name locale="ja">&#12473;&#12524;&#12483;&#12489; ID</name>
+            <name locale="ru">&#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056; &#1062;&#1045;&#1055;&#1054;&#1063;&#1050;&#1048;</name>
+            <name locale="zh-cn">&#32447;&#31243; ID</name>
+            <name locale="zh-sg">&#32447;&#31243; ID</name>
+            <name locale="zh">&#32447;&#31243; ID</name>
+            <name locale="zh-tw">&#22519;&#34892;&#32210; ID</name>
+            <name locale="ko">&#49828;&#47112;&#46300; ID</name>
+            <name locale="pt-br">ID DE THREAD</name>
+            <name locale="es">ID DE SUBPROCESO</name>
+            <name locale="it">ID THREAD</name>
+            <name locale="cs">ID PODPROCESU</name>
+            <name locale="hu">SZ&#193;LAZONOS&#205;T&#211;</name>
+            <name locale="pl">ID W&#260;TKU</name>
+            <name locale="ro">ID FIR</name>
+            <name locale="tr">&#304;&#350; PAR&#199;ACI&#286;I TANITICISI</name>
+            <name locale="kk">&#1040;&#1170;&#1067;&#1053;&#1053;&#1067;&#1186; &#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056;&#1067;</name>
+            <lastChanged>2021-08-10T18:35:50</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[THREAD ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">COMPONENT_ID</name>
+            <name locale="fr">IDENTIFICATEUR DE COMPOSANT</name>
+            <name locale="de">KOMPONENTEN-ID</name>
+            <name locale="ja">&#12467;&#12531;&#12509;&#12540;&#12493;&#12531;&#12488; ID</name>
+            <name locale="ru">&#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056; &#1050;&#1054;&#1052;&#1055;&#1054;&#1053;&#1045;&#1053;&#1058;&#1040;</name>
+            <name locale="zh-cn">COMPONENT ID</name>
+            <name locale="zh-sg">COMPONENT ID</name>
+            <name locale="zh">COMPONENT ID</name>
+            <name locale="zh-tw">&#20803;&#20214; ID</name>
+            <name locale="ko">&#44396;&#49457; &#50836;&#49548; ID</name>
+            <name locale="pt-br">ID DO COMPONENTE</name>
+            <name locale="es">ID DE COMPONENTE</name>
+            <name locale="it">ID COMPONENTE</name>
+            <name locale="cs">ID KOMPONENTY</name>
+            <name locale="hu">&#214;SSZETEV&#336;-AZONOS&#205;T&#211;</name>
+            <name locale="pl">ID KOMPONENTU</name>
+            <name locale="ro">COMPONENT ID</name>
+            <name locale="tr">B&#304;LE&#350;EN TANITICISI</name>
+            <name locale="kk">&#1178;&#1200;&#1056;&#1040;&#1052;&#1044;&#1040;&#1057; &#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056;&#1067;</name>
+            <lastChanged>2021-08-10T18:36:00</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[COMPONENT ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>64</precision>
+            <scale>0</scale>
+            <size>130</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">BUILD_NUMBER</name>
+            <name locale="fr">NUM&#201;RO DE VERSION</name>
+            <name locale="de">BUILD-NUMMER</name>
+            <name locale="ja">&#12499;&#12523;&#12489;&#30058;&#21495;</name>
+            <name locale="ru">&#1053;&#1054;&#1052;&#1045;&#1056; &#1057;&#1041;&#1054;&#1056;&#1050;&#1048;</name>
+            <name locale="zh-cn">BUILD NUMBER</name>
+            <name locale="zh-sg">BUILD NUMBER</name>
+            <name locale="zh">BUILD NUMBER</name>
+            <name locale="zh-tw">&#24314;&#32622;&#32232;&#34399;</name>
+            <name locale="ko">&#48716;&#46300; &#48264;&#54840;</name>
+            <name locale="pt-br">N&#218;MERO DE COMPILA&#199;&#195;O</name>
+            <name locale="es">N&#218;MERO DE VERSI&#211;N</name>
+            <name locale="it">NUMERO BUILD</name>
+            <name locale="cs">&#268;&#205;SLO SESTAVEN&#205;</name>
+            <name locale="hu">BUILDSZ&#193;M</name>
+            <name locale="pl">NUMER KOMPILACJI</name>
+            <name locale="ro">BUILD NUMBER</name>
+            <name locale="tr">OLU&#350;TURMA NUMARASI</name>
+            <name locale="kk">&#1178;&#1200;&#1056;&#1067;&#1051;&#1067;&#1057; &#1057;&#1040;&#1053;&#1067;</name>
+            <lastChanged>2021-08-10T18:36:13</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[BUILD NUMBER]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int32</datatype>
+            <precision>10</precision>
+            <scale>0</scale>
+            <size>4</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">TARGET_TYPE</name>
+            <name locale="fr">Type de cible</name>
+            <name locale="de">Zieltyp</name>
+            <name locale="ja">&#12479;&#12540;&#12466;&#12483;&#12488;&#12398;&#12479;&#12452;&#12503;</name>
+            <name locale="ru">&#1062;&#1077;&#1083;&#1077;&#1074;&#1086;&#1081; &#1090;&#1080;&#1087;</name>
+            <name locale="zh-cn">&#30446;&#26631;&#31867;&#22411;</name>
+            <name locale="zh-sg">&#30446;&#26631;&#31867;&#22411;</name>
+            <name locale="zh">&#30446;&#26631;&#31867;&#22411;</name>
+            <name locale="zh-tw">&#30446;&#27161;&#39006;&#22411;</name>
+            <name locale="ko">&#45824;&#49345; &#50976;&#54805;</name>
+            <name locale="pt-br">Tipo de destino</name>
+            <name locale="es">Tipo de destino</name>
+            <name locale="it">Tipo di destinazione</name>
+            <name locale="cs">(cs) TARGET TYPE</name>
+            <name locale="hu">(hu) TARGET TYPE</name>
+            <name locale="pl">(pl) TARGET TYPE</name>
+            <name locale="ro">(ro) TARGET TYPE</name>
+            <name locale="tr">(tr) TARGET TYPE</name>
+            <name locale="kk">(kk) TARGET TYPE</name>
+            <lastChanged>2021-08-10T18:36:22</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[TARGET TYPE]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">LOG_LEVEL</name>
+            <name locale="fr">NIVEAU DE JOURNALISATION</name>
+            <name locale="de">PROTOKOLLSTUFE</name>
+            <name locale="ja">&#12525;&#12464; &#12524;&#12505;&#12523;</name>
+            <name locale="ru">&#1059;&#1056;&#1054;&#1042;&#1045;&#1053;&#1068; &#1046;&#1059;&#1056;&#1053;&#1040;&#1051;&#1040;</name>
+            <name locale="zh-cn">LOG LEVEL</name>
+            <name locale="zh-sg">LOG LEVEL</name>
+            <name locale="zh">LOG LEVEL</name>
+            <name locale="zh-tw">&#35352;&#37636;&#23652;&#32026;</name>
+            <name locale="ko">&#47196;&#44536; &#49688;&#51456;</name>
+            <name locale="pt-br">N&#205;VEL DE LOG</name>
+            <name locale="es">NIVEL DE REGISTRO</name>
+            <name locale="it">LIVELLO REGISTRO</name>
+            <name locale="cs">&#218;ROVE&#327; PROTOKOLOV&#193;N&#205;</name>
+            <name locale="hu">NAPL&#211;Z&#193;SI SZINT</name>
+            <name locale="pl">POZIOM DZIENNIKA</name>
+            <name locale="ro">NIVEL JURNAL</name>
+            <name locale="tr">G&#220;NL&#220;K D&#220;ZEY&#304;</name>
+            <name locale="kk">&#1045;&#1053;&#1043;&#1030;&#1047;&#1059; &#1044;&#1045;&#1186;&#1043;&#1045;&#1049;&#1030;</name>
+            <lastChanged>2021-08-10T18:36:30</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[LOG LEVEL]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int32</datatype>
+            <precision>10</precision>
+            <scale>0</scale>
+            <size>4</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">JOBPATH</name>
+            <name locale="fr">CHEMIN_ACC&#200;S_TRAVAIL</name>
+            <name locale="de">AUFGABENPFAD</name>
+            <name locale="ja">&#12472;&#12519;&#12502;&#12398;&#12497;&#12473;</name>
+            <name locale="ru">JOBPATH</name>
+            <name locale="zh-cn">JOBPATH</name>
+            <name locale="zh-sg">JOBPATH</name>
+            <name locale="zh">JOBPATH</name>
+            <name locale="zh-tw">&#24037;&#20316;&#36335;&#24465;</name>
+            <name locale="ko">&#51089;&#50629; &#44221;&#47196;</name>
+            <name locale="pt-br">CAMINHODOTRABALHO</name>
+            <name locale="es">RUTATRABAJO</name>
+            <name locale="it">JOBPATH</name>
+            <name locale="cs">JOBPATH</name>
+            <name locale="hu">JOBPATH</name>
+            <name locale="pl">JOBPATH</name>
+            <name locale="ro">JOBPATH</name>
+            <name locale="tr">JOBPATH</name>
+            <name locale="kk">&#1046;&#1200;&#1052;&#1067;&#1057; &#1046;&#1054;&#1051;&#1067;</name>
+            <lastChanged>2021-08-10T18:32:58</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[JOBPATH]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>512</precision>
+            <scale>0</scale>
+            <size>1026</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">STATUS</name>
+            <name locale="fr">&#201;TAT</name>
+            <name locale="de">STATUS</name>
+            <name locale="ja">&#12473;&#12486;&#12540;&#12479;&#12473;</name>
+            <name locale="ru">&#1057;&#1086;&#1089;&#1090;&#1086;&#1103;&#1085;&#1080;&#1077;</name>
+            <name locale="zh-cn">&#29366;&#24577;</name>
+            <name locale="zh-sg">&#29366;&#24577;</name>
+            <name locale="zh">&#29366;&#24577;</name>
+            <name locale="zh-tw">&#29376;&#24907;</name>
+            <name locale="ko">&#49345;&#53468;</name>
+            <name locale="pt-br">STATUS</name>
+            <name locale="es">ESTADO</name>
+            <name locale="it">STATO</name>
+            <name locale="cs">(cs) STATUS</name>
+            <name locale="hu">(hu) STATUS</name>
+            <name locale="pl">(pl) STATUS</name>
+            <name locale="ro">(ro) STATUS</name>
+            <name locale="tr">(tr) STATUS</name>
+            <name locale="kk">(kk) STATUS</name>
+            <lastChanged>2021-08-10T18:32:58</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[STATUS]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">ERROR_DETAILS</name>
+            <name locale="fr">D&#233;tails relatifs aux erreurs</name>
+            <name locale="de">Fehlerdetails</name>
+            <name locale="ja">&#12456;&#12521;&#12540;&#12398;&#35443;&#32048;</name>
+            <name locale="ru">&#1055;&#1086;&#1076;&#1088;&#1086;&#1073;&#1085;&#1086;&#1089;&#1090;&#1080; &#1086;&#1096;&#1080;&#1073;&#1082;&#1080;</name>
+            <name locale="zh-cn">&#38169;&#35823;&#35814;&#24773;</name>
+            <name locale="zh-sg">&#38169;&#35823;&#35814;&#24773;</name>
+            <name locale="zh">&#38169;&#35823;&#35814;&#24773;</name>
+            <name locale="zh-tw">&#37679;&#35492;&#26126;&#32048;</name>
+            <name locale="ko">&#50724;&#47448; &#49345;&#49464; &#51221;&#48372;</name>
+            <name locale="pt-br">Detalhes do erro</name>
+            <name locale="es">Detalles del error</name>
+            <name locale="it">Dettagli errore</name>
+            <name locale="cs">(cs) ERROR DETAILS</name>
+            <name locale="hu">(hu) ERROR DETAILS</name>
+            <name locale="pl">(pl) ERROR DETAILS</name>
+            <name locale="ro">(ro) ERROR DETAILS</name>
+            <name locale="tr">(tr) ERROR DETAILS</name>
+            <name locale="kk">(kk) ERROR DETAILS</name>
+            <lastChanged>2021-08-10T18:36:48</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[ERROR DETAILS]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>2000</precision>
+            <scale>0</scale>
+            <size>4002</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">RUN_TIME</name>
+            <name locale="fr">TEMPS D'EX&#201;CUTION</name>
+            <name locale="de">LAUFZEIT</name>
+            <name locale="ja">&#23455;&#34892;&#26178;&#38291;</name>
+            <name locale="ru">&#1042;&#1056;&#1045;&#1052;&#1071; &#1056;&#1040;&#1041;&#1054;&#1058;&#1067;</name>
+            <name locale="zh-cn">RUN TIME</name>
+            <name locale="zh-sg">RUN TIME</name>
+            <name locale="zh">RUN TIME</name>
+            <name locale="zh-tw">&#22519;&#34892;&#26178;&#38291;</name>
+            <name locale="ko">&#47088;&#53440;&#51076;</name>
+            <name locale="pt-br">TEMPO DE EXECU&#199;&#195;O</name>
+            <name locale="es">TIEMPO DE EJECUCI&#211;N</name>
+            <name locale="it">RUN TIME</name>
+            <name locale="cs">DOBA B&#282;HU</name>
+            <name locale="hu">FUT&#193;SID&#336;</name>
+            <name locale="pl">CZAS URUCHOMIENIA</name>
+            <name locale="ro">RUN TIME</name>
+            <name locale="tr">&#199;ALI&#350;TIRMA S&#220;RES&#304;</name>
+            <name locale="kk">&#1059;&#1040;&#1178;&#1067;&#1058;&#1058;&#1067; &#1030;&#1057;&#1050;&#1045; &#1178;&#1054;&#1057;&#1059;</name>
+            <lastChanged>2021-08-10T18:36:55</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNJOB].[RUN TIME]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int64</datatype>
+            <precision>19</precision>
+            <scale>0</scale>
+            <size>8</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+    </querySubject>
+    <querySubject status="valid">
+        <name locale="en">COGIPF_RUNREPORT</name>
+        <name locale="fr">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="de">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="ja">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="ru">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="zh-cn">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="zh-sg">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="zh">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="zh-tw">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="ko">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="pt-br">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="es">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="it">COGIPF_RUNREPORT_COGIPF_RUNREPORT</name>
+        <name locale="cs">(cs) COGIPF_RUNREPORT_(cs) COGIPF_RUNREPORT</name>
+        <name locale="hu">(hu) COGIPF_RUNREPORT_(hu) COGIPF_RUNREPORT</name>
+        <name locale="pl">(pl) COGIPF_RUNREPORT_(pl) COGIPF_RUNREPORT</name>
+        <name locale="ro">(ro) COGIPF_RUNREPORT_(ro) COGIPF_RUNREPORT</name>
+        <name locale="tr">(tr) COGIPF_RUNREPORT_(tr) COGIPF_RUNREPORT</name>
+        <name locale="kk">(kk) COGIPF_RUNREPORT_(kk) COGIPF_RUNREPORT</name>
+        <lastChanged>2021-08-10T18:33:35</lastChanged>
+        <lastChangedBy>admin admin</lastChangedBy>
+        <property name="included" type="hidden">true</property>
+        <definition>
+            <modelQuery>
+                <sql type="cognos">Select <column>*</column>from
+                    <table />
+                </sql>
+            </modelQuery>
+        </definition>
+        <queryItem>
+            <name locale="en">HOST IPADDR</name>
+            <name locale="fr">ADRESSE IP DE L'H&#212;TE</name>
+            <name locale="de">HOST-IP-ADRESSE</name>
+            <name locale="ja">&#12507;&#12473;&#12488;&#12398; IP &#12450;&#12489;&#12524;&#12473;</name>
+            <name locale="ru">IPADDR &#1059;&#1047;&#1051;&#1040;</name>
+            <name locale="zh-cn">HOST IPADDR</name>
+            <name locale="zh-sg">HOST IPADDR</name>
+            <name locale="zh">HOST IPADDR</name>
+            <name locale="zh-tw">&#20027;&#27231; IP &#20301;&#22336;</name>
+            <name locale="ko">&#54840;&#49828;&#53944; IPADDR</name>
+            <name locale="pt-br">END IP HOST</name>
+            <name locale="es">DIRIP HOST</name>
+            <name locale="it">INDIRIZZOIP HOST</name>
+            <name locale="cs">ADRESA IP HOSTITELE</name>
+            <name locale="hu">GAZDASZ&#193;M&#205;T&#211;G&#201;P IPADDR</name>
+            <name locale="pl">HOST IPADDR</name>
+            <name locale="ro">ADR IP GAZD&#258;</name>
+            <name locale="tr">ANAS&#304;STEM IPADDR</name>
+            <name locale="kk">&#1178;&#1054;&#1053;&#1040;&#1178;&#1058;&#1067;&#1186; IP &#1052;&#1045;&#1050;&#1045;&#1053;&#1046;&#1040;&#1049;&#1067;</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[HOST IPADDR]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>128</precision>
+            <scale>0</scale>
+            <size>258</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">HOST PORT</name>
+            <name locale="fr">PORT H&#212;TE</name>
+            <name locale="de">HOST-PORT</name>
+            <name locale="ja">&#12507;&#12473;&#12488;&#12398;&#12509;&#12540;&#12488;&#30058;&#21495;</name>
+            <name locale="ru">&#1055;&#1054;&#1056;&#1058; &#1059;&#1047;&#1051;&#1040;</name>
+            <name locale="zh-cn">HOST PORT</name>
+            <name locale="zh-sg">HOST PORT</name>
+            <name locale="zh">HOST PORT</name>
+            <name locale="zh-tw">&#20027;&#27231;&#36899;&#25509;&#22496;</name>
+            <name locale="ko">&#54840;&#49828;&#53944; &#54252;&#53944;</name>
+            <name locale="pt-br">PORTA DO HOST</name>
+            <name locale="es">PUERTO DE HOST</name>
+            <name locale="it">PORTA HOST</name>
+            <name locale="cs">PORT HOSTITELE</name>
+            <name locale="hu">GAZDASZ&#193;M&#205;T&#211;G&#201;P PORTJA</name>
+            <name locale="pl">HOST PORT</name>
+            <name locale="ro">PORT GAZD&#258;</name>
+            <name locale="tr">ANAS&#304;STEM KAPISI</name>
+            <name locale="kk">&#1178;&#1054;&#1053;&#1040;&#1178; &#1055;&#1054;&#1056;&#1058;&#1067;</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[HOST PORT]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int32</datatype>
+            <precision>10</precision>
+            <scale>0</scale>
+            <size>4</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">PROC ID</name>
+            <name locale="fr">IDENTIFICATEUR DE PROCESSUS</name>
+            <name locale="de">PROZESS-ID</name>
+            <name locale="ja">&#20966;&#29702; ID</name>
+            <name locale="ru">PROC ID</name>
+            <name locale="zh-cn">PROC ID</name>
+            <name locale="zh-sg">PROC ID</name>
+            <name locale="zh">PROC ID</name>
+            <name locale="zh-tw">PROC ID</name>
+            <name locale="ko">&#54532;&#47196;&#49464;&#49828; ID</name>
+            <name locale="pt-br">ID PROC</name>
+            <name locale="es">ID DE PROC</name>
+            <name locale="it">ID PROC</name>
+            <name locale="cs">ID PROCEDURY</name>
+            <name locale="hu">FOLYAMATAZONOS&#205;T&#211;</name>
+            <name locale="pl">PROC ID</name>
+            <name locale="ro">ID PROC</name>
+            <name locale="tr">YORDAM TANITICISI</name>
+            <name locale="kk">PROC ID</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[PROC ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int32</datatype>
+            <precision>10</precision>
+            <scale>0</scale>
+            <size>4</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">TIME STAMP</name>
+            <name locale="fr">Date-heure</name>
+            <name locale="de">Zeitstempel</name>
+            <name locale="ja">&#12479;&#12452;&#12512;&#12473;&#12479;&#12531;&#12503;</name>
+            <name locale="ru">&#1042;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1072;&#1103; &#1084;&#1077;&#1090;&#1082;&#1072;</name>
+            <name locale="zh-cn">&#26102;&#38388;&#25139;</name>
+            <name locale="zh-sg">&#26102;&#38388;&#25139;</name>
+            <name locale="zh">&#26102;&#38388;&#25139;</name>
+            <name locale="zh-tw">&#26102;&#38388;&#25139;</name>
+            <name locale="ko">TIME STAMP</name>
+            <name locale="pt-br">TIME STAMP</name>
+            <name locale="es">TIME STAMP</name>
+            <name locale="it">TIME STAMP</name>
+            <name locale="cs">(cs) TIME STAMP</name>
+            <name locale="hu">(hu) TIME STAMP</name>
+            <name locale="pl">(pl) TIME STAMP</name>
+            <name locale="ro">(ro) TIME STAMP</name>
+            <name locale="tr">(tr) TIME STAMP</name>
+            <name locale="kk">(kk) TIME STAMP</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[TIME STAMP]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>dateTime</datatype>
+            <precision>0</precision>
+            <scale>0</scale>
+            <size>12</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">TIME ZONE OFFSET</name>
+            <name locale="fr">D&#233;calage horaire</name>
+            <name locale="de">Zeitzonenverschiebung</name>
+            <name locale="ja">&#12479;&#12452;&#12512; &#12478;&#12540;&#12531;&#12398;&#26178;&#24046;</name>
+            <name locale="ru">&#1057;&#1076;&#1074;&#1080;&#1075; &#1095;&#1072;&#1089;&#1086;&#1074;&#1086;&#1075;&#1086; &#1087;&#1086;&#1103;&#1089;&#1072;</name>
+            <name locale="zh-cn">&#26102;&#21306;&#20559;&#31227;</name>
+            <name locale="zh-sg">&#26102;&#21306;&#20559;&#31227;</name>
+            <name locale="zh">&#26102;&#21306;&#20559;&#31227;</name>
+            <name locale="zh-tw">&#26102;&#21306;&#20559;&#31227;</name>
+            <name locale="ko">TIME ZONE OFFSET</name>
+            <name locale="pt-br">TIME ZONE OFFSET</name>
+            <name locale="es">TIME ZONE OFFSET</name>
+            <name locale="it">TIME ZONE OFFSET</name>
+            <name locale="cs">(cs) TIME ZONE OFFSET</name>
+            <name locale="hu">(hu) TIME ZONE OFFSET</name>
+            <name locale="pl">(pl) TIME ZONE OFFSET</name>
+            <name locale="ro">(ro) TIME ZONE OFFSET</name>
+            <name locale="tr">(tr) TIME ZONE OFFSET</name>
+            <name locale="kk">(kk) TIME ZONE OFFSET</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[TIME ZONE OFFSET]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int32</datatype>
+            <precision>10</precision>
+            <scale>0</scale>
+            <size>4</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">SESSION ID</name>
+            <name locale="fr">Identificateur de session</name>
+            <name locale="de">Sitzungskennung</name>
+            <name locale="ja">&#12475;&#12483;&#12471;&#12519;&#12531; ID</name>
+            <name locale="ru">&#1048;&#1076;&#1077;&#1085;&#1090;&#1080;&#1092;&#1080;&#1082;&#1072;&#1090;&#1086;&#1088; &#1089;&#1077;&#1072;&#1085;&#1089;&#1072;</name>
+            <name locale="zh-cn">&#20250;&#35805; ID</name>
+            <name locale="zh-sg">&#20250;&#35805; ID</name>
+            <name locale="zh">&#20250;&#35805; ID</name>
+            <name locale="zh-tw">&#20250;&#35805; ID</name>
+            <name locale="ko">SESSION ID</name>
+            <name locale="pt-br">SESSION ID</name>
+            <name locale="es">SESSION ID</name>
+            <name locale="it">SESSION ID</name>
+            <name locale="cs">(cs) SESSION ID</name>
+            <name locale="hu">(hu) SESSION ID</name>
+            <name locale="pl">(pl) SESSION ID</name>
+            <name locale="ro">(ro) SESSION ID</name>
+            <name locale="tr">(tr) SESSION ID</name>
+            <name locale="kk">(kk) SESSION ID</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[SESSION ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">REQUEST ID</name>
+            <name locale="fr">IDENTIFICATEUR DE DEMANDE</name>
+            <name locale="de">ANFORDERUNGS-ID</name>
+            <name locale="ja">&#35201;&#27714; ID</name>
+            <name locale="ru">&#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056; &#1047;&#1040;&#1055;&#1056;&#1054;&#1057;&#1040;</name>
+            <name locale="zh-cn">REQUEST ID</name>
+            <name locale="zh-sg">REQUEST ID</name>
+            <name locale="zh">REQUEST ID</name>
+            <name locale="zh-tw">&#35531;&#27714; ID</name>
+            <name locale="ko">&#50836;&#52397; ID</name>
+            <name locale="pt-br">ID DE SOLICITA&#199;&#195;O</name>
+            <name locale="es">ID DE SOLICITUD</name>
+            <name locale="it">ID RICHIESTA</name>
+            <name locale="cs">ID PO&#381;ADAVKU</name>
+            <name locale="hu">K&#201;RELEMAZONOS&#205;T&#211;</name>
+            <name locale="pl">ID &#379;&#260;DANIA</name>
+            <name locale="ro">ID CERERE</name>
+            <name locale="tr">&#304;STEK TANITICISI</name>
+            <name locale="kk">&#1057;&#1200;&#1056;&#1040;&#1053;&#1067;&#1057; &#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056;&#1067;</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[REQUEST ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>false</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">STEP ID</name>
+            <name locale="fr">IDENTIFICATEUR DE T&#194;CHE</name>
+            <name locale="de">SCHRITT-ID</name>
+            <name locale="ja">&#12473;&#12486;&#12483;&#12503; ID</name>
+            <name locale="ru">&#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056; &#1064;&#1040;&#1043;&#1040;</name>
+            <name locale="zh-cn">STEP ID</name>
+            <name locale="zh-sg">STEP ID</name>
+            <name locale="zh">STEP ID</name>
+            <name locale="zh-tw">&#27493;&#39519; ID</name>
+            <name locale="ko">&#45800;&#44228; ID</name>
+            <name locale="pt-br">ID DE ETAPA</name>
+            <name locale="es">ID DE PASO</name>
+            <name locale="it">ID PASSAGGIO</name>
+            <name locale="cs">ID KROKU</name>
+            <name locale="hu">L&#201;P&#201;SAZONOS&#205;T&#211;</name>
+            <name locale="pl">ID KROKU</name>
+            <name locale="ro">ID PAS</name>
+            <name locale="tr">ADIM TANITICISI</name>
+            <name locale="kk">&#1178;&#1040;&#1044;&#1040;&#1052; &#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056;&#1067;</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[STEP ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">SUBREQUEST ID</name>
+            <name locale="fr">IDENTIFICATEUR DE SOUS-DEMANDE</name>
+            <name locale="de">UNTERANFORDERUNGS-ID</name>
+            <name locale="ja">&#20108;&#27425;&#35201;&#27714; ID</name>
+            <name locale="ru">&#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056; &#1055;&#1054;&#1044;&#1047;&#1040;&#1055;&#1056;&#1054;&#1057;&#1040;</name>
+            <name locale="zh-cn">SUBREQUEST ID</name>
+            <name locale="zh-sg">SUBREQUEST ID</name>
+            <name locale="zh">SUBREQUEST ID</name>
+            <name locale="zh-tw">&#23376;&#35531;&#27714; ID</name>
+            <name locale="ko">&#54616;&#50948; &#50836;&#52397; ID</name>
+            <name locale="pt-br">ID DO SUBREQUEST</name>
+            <name locale="es">ID DE SOLICITUD SECUNDARIA</name>
+            <name locale="it">ID SOTTORICHIESTA</name>
+            <name locale="cs">ID D&#205;L&#268;&#205;HO PO&#381;ADAVKU</name>
+            <name locale="hu">ALK&#201;RELEM AZONOS&#205;T&#211;JA</name>
+            <name locale="pl">ID PODRZ&#280;DNEGO &#379;&#260;DANIA</name>
+            <name locale="ro">SUBREQUEST ID</name>
+            <name locale="tr">ALT &#304;STEK TANITICISI</name>
+            <name locale="kk">&#1058;&#1256;&#1052;&#1045;&#1053;&#1043;&#1030; &#1057;&#1200;&#1056;&#1040;&#1059; &#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056;&#1067;</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[SUBREQUEST ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">THREAD ID</name>
+            <name locale="fr">IDENTIFICATEUR DE THREAD</name>
+            <name locale="de">THREAD-ID</name>
+            <name locale="ja">&#12473;&#12524;&#12483;&#12489; ID</name>
+            <name locale="ru">&#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056; &#1062;&#1045;&#1055;&#1054;&#1063;&#1050;&#1048;</name>
+            <name locale="zh-cn">&#32447;&#31243; ID</name>
+            <name locale="zh-sg">&#32447;&#31243; ID</name>
+            <name locale="zh">&#32447;&#31243; ID</name>
+            <name locale="zh-tw">&#22519;&#34892;&#32210; ID</name>
+            <name locale="ko">&#49828;&#47112;&#46300; ID</name>
+            <name locale="pt-br">ID DE THREAD</name>
+            <name locale="es">ID DE SUBPROCESO</name>
+            <name locale="it">ID THREAD</name>
+            <name locale="cs">ID PODPROCESU</name>
+            <name locale="hu">SZ&#193;LAZONOS&#205;T&#211;</name>
+            <name locale="pl">ID W&#260;TKU</name>
+            <name locale="ro">ID FIR</name>
+            <name locale="tr">&#304;&#350; PAR&#199;ACI&#286;I TANITICISI</name>
+            <name locale="kk">&#1040;&#1170;&#1067;&#1053;&#1053;&#1067;&#1186; &#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056;&#1067;</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[THREAD ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">COMPONENT ID</name>
+            <name locale="fr">IDENTIFICATEUR DE COMPOSANT</name>
+            <name locale="de">KOMPONENTEN-ID</name>
+            <name locale="ja">&#12467;&#12531;&#12509;&#12540;&#12493;&#12531;&#12488; ID</name>
+            <name locale="ru">&#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056; &#1050;&#1054;&#1052;&#1055;&#1054;&#1053;&#1045;&#1053;&#1058;&#1040;</name>
+            <name locale="zh-cn">COMPONENT ID</name>
+            <name locale="zh-sg">COMPONENT ID</name>
+            <name locale="zh">COMPONENT ID</name>
+            <name locale="zh-tw">&#20803;&#20214; ID</name>
+            <name locale="ko">&#44396;&#49457; &#50836;&#49548; ID</name>
+            <name locale="pt-br">ID DO COMPONENTE</name>
+            <name locale="es">ID DE COMPONENTE</name>
+            <name locale="it">ID COMPONENTE</name>
+            <name locale="cs">ID KOMPONENTY</name>
+            <name locale="hu">&#214;SSZETEV&#336;-AZONOS&#205;T&#211;</name>
+            <name locale="pl">ID KOMPONENTU</name>
+            <name locale="ro">COMPONENT ID</name>
+            <name locale="tr">B&#304;LE&#350;EN TANITICISI</name>
+            <name locale="kk">&#1178;&#1200;&#1056;&#1040;&#1052;&#1044;&#1040;&#1057; &#1048;&#1044;&#1045;&#1053;&#1058;&#1048;&#1060;&#1048;&#1050;&#1040;&#1058;&#1054;&#1056;&#1067;</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[COMPONENT ID]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>characterLength16</datatype>
+            <precision>64</precision>
+            <scale>0</scale>
+            <size>130</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">BUILD NUMBER</name>
+            <name locale="fr">NUM&#201;RO DE VERSION</name>
+            <name locale="de">BUILD-NUMMER</name>
+            <name locale="ja">&#12499;&#12523;&#12489;&#30058;&#21495;</name>
+            <name locale="ru">&#1053;&#1054;&#1052;&#1045;&#1056; &#1057;&#1041;&#1054;&#1056;&#1050;&#1048;</name>
+            <name locale="zh-cn">BUILD NUMBER</name>
+            <name locale="zh-sg">BUILD NUMBER</name>
+            <name locale="zh">BUILD NUMBER</name>
+            <name locale="zh-tw">&#24314;&#32622;&#32232;&#34399;</name>
+            <name locale="ko">&#48716;&#46300; &#48264;&#54840;</name>
+            <name locale="pt-br">N&#218;MERO DE COMPILA&#199;&#195;O</name>
+            <name locale="es">N&#218;MERO DE VERSI&#211;N</name>
+            <name locale="it">NUMERO BUILD</name>
+            <name locale="cs">&#268;&#205;SLO SESTAVEN&#205;</name>
+            <name locale="hu">BUILDSZ&#193;M</name>
+            <name locale="pl">NUMER KOMPILACJI</name>
+            <name locale="ro">BUILD NUMBER</name>
+            <name locale="tr">OLU&#350;TURMA NUMARASI</name>
+            <name locale="kk">&#1178;&#1200;&#1056;&#1067;&#1051;&#1067;&#1057; &#1057;&#1040;&#1053;&#1067;</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[BUILD NUMBER]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int32</datatype>
+            <precision>10</precision>
+            <scale>0</scale>
+            <size>4</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">LOG LEVEL</name>
+            <name locale="fr">NIVEAU DE JOURNALISATION</name>
+            <name locale="de">PROTOKOLLSTUFE</name>
+            <name locale="ja">&#12525;&#12464; &#12524;&#12505;&#12523;</name>
+            <name locale="ru">&#1059;&#1056;&#1054;&#1042;&#1045;&#1053;&#1068; &#1046;&#1059;&#1056;&#1053;&#1040;&#1051;&#1040;</name>
+            <name locale="zh-cn">LOG LEVEL</name>
+            <name locale="zh-sg">LOG LEVEL</name>
+            <name locale="zh">LOG LEVEL</name>
+            <name locale="zh-tw">&#35352;&#37636;&#23652;&#32026;</name>
+            <name locale="ko">&#47196;&#44536; &#49688;&#51456;</name>
+            <name locale="pt-br">N&#205;VEL DE LOG</name>
+            <name locale="es">NIVEL DE REGISTRO</name>
+            <name locale="it">LIVELLO REGISTRO</name>
+            <name locale="cs">&#218;ROVE&#327; PROTOKOLOV&#193;N&#205;</name>
+            <name locale="hu">NAPL&#211;Z&#193;SI SZINT</name>
+            <name locale="pl">POZIOM DZIENNIKA</name>
+            <name locale="ro">NIVEL JURNAL</name>
+            <name locale="tr">G&#220;NL&#220;K D&#220;ZEY&#304;</name>
+            <name locale="kk">&#1045;&#1053;&#1043;&#1030;&#1047;&#1059; &#1044;&#1045;&#1186;&#1043;&#1045;&#1049;&#1030;</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[LOG LEVEL]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int32</datatype>
+            <precision>10</precision>
+            <scale>0</scale>
+            <size>4</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">TARGET TYPE</name>
+            <name locale="fr">Type de cible</name>
+            <name locale="de">Zieltyp</name>
+            <name locale="ja">&#12479;&#12540;&#12466;&#12483;&#12488;&#12398;&#12479;&#12452;&#12503;</name>
+            <name locale="ru">&#1062;&#1077;&#1083;&#1077;&#1074;&#1086;&#1081; &#1090;&#1080;&#1087;</name>
+            <name locale="zh-cn">&#30446;&#26631;&#31867;&#22411;</name>
+            <name locale="zh-sg">&#30446;&#26631;&#31867;&#22411;</name>
+            <name locale="zh">&#30446;&#26631;&#31867;&#22411;</name>
+            <name locale="zh-tw">&#30446;&#26631;&#31867;&#22411;</name>
+            <name locale="ko">TARGET TYPE</name>
+            <name locale="pt-br">TARGET TYPE</name>
+            <name locale="es">TARGET TYPE</name>
+            <name locale="it">TARGET TYPE</name>
+            <name locale="cs">(cs) TARGET TYPE</name>
+            <name locale="hu">(hu) TARGET TYPE</name>
+            <name locale="pl">(pl) TARGET TYPE</name>
+            <name locale="ro">(ro) TARGET TYPE</name>
+            <name locale="tr">(tr) TARGET TYPE</name>
+            <name locale="kk">(kk) TARGET TYPE</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[TARGET TYPE]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">REPORT PATH</name>
+            <name locale="fr">Chemin d'acc&#232;s au rapport</name>
+            <name locale="de">Berichtspfad</name>
+            <name locale="ja">&#12524;&#12509;&#12540;&#12488;&#12398;&#12497;&#12473;</name>
+            <name locale="ru">&#1055;&#1091;&#1090;&#1100; &#1082; &#1086;&#1090;&#1095;&#1077;&#1090;&#1091;</name>
+            <name locale="zh-cn">&#25253;&#34920;&#36335;&#24452;</name>
+            <name locale="zh-sg">&#25253;&#34920;&#36335;&#24452;</name>
+            <name locale="zh">&#25253;&#34920;&#36335;&#24452;</name>
+            <name locale="zh-tw">&#25253;&#34920;&#36335;&#24452;</name>
+            <name locale="ko">REPORT PATH</name>
+            <name locale="pt-br">REPORT PATH</name>
+            <name locale="es">REPORT PATH</name>
+            <name locale="it">REPORT PATH</name>
+            <name locale="cs">(cs) REPORT PATH</name>
+            <name locale="hu">(hu) REPORT PATH</name>
+            <name locale="pl">(pl) REPORT PATH</name>
+            <name locale="ro">(ro) REPORT PATH</name>
+            <name locale="tr">(tr) REPORT PATH</name>
+            <name locale="kk">(kk) REPORT PATH</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[REPORT PATH]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>1024</precision>
+            <scale>0</scale>
+            <size>2050</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">STATUS</name>
+            <name locale="fr">&#201;TAT</name>
+            <name locale="de">STATUS</name>
+            <name locale="ja">&#12473;&#12486;&#12540;&#12479;&#12473;</name>
+            <name locale="ru">&#1057;&#1086;&#1089;&#1090;&#1086;&#1103;&#1085;&#1080;&#1077;</name>
+            <name locale="zh-cn">&#29366;&#24577;</name>
+            <name locale="zh-sg">&#29366;&#24577;</name>
+            <name locale="zh">&#29366;&#24577;</name>
+            <name locale="zh-tw">&#29366;&#24577;</name>
+            <name locale="ko">STATUS</name>
+            <name locale="pt-br">STATUS</name>
+            <name locale="es">STATUS</name>
+            <name locale="it">STATUS</name>
+            <name locale="cs">(cs) STATUS</name>
+            <name locale="hu">(hu) STATUS</name>
+            <name locale="pl">(pl) STATUS</name>
+            <name locale="ro">(ro) STATUS</name>
+            <name locale="tr">(tr) STATUS</name>
+            <name locale="kk">(kk) STATUS</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[STATUS]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>255</precision>
+            <scale>0</scale>
+            <size>512</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">ERROR DETAILS</name>
+            <name locale="fr">D&#233;tails relatifs aux erreurs</name>
+            <name locale="de">Fehlerdetails</name>
+            <name locale="ja">&#12456;&#12521;&#12540;&#12398;&#35443;&#32048;</name>
+            <name locale="ru">&#1055;&#1086;&#1076;&#1088;&#1086;&#1073;&#1085;&#1086;&#1089;&#1090;&#1080; &#1086;&#1096;&#1080;&#1073;&#1082;&#1080;</name>
+            <name locale="zh-cn">&#38169;&#35823;&#35814;&#24773;</name>
+            <name locale="zh-sg">&#38169;&#35823;&#35814;&#24773;</name>
+            <name locale="zh">&#38169;&#35823;&#35814;&#24773;</name>
+            <name locale="zh-tw">&#38169;&#35823;&#35814;&#24773;</name>
+            <name locale="ko">ERROR DETAILS</name>
+            <name locale="pt-br">ERROR DETAILS</name>
+            <name locale="es">ERROR DETAILS</name>
+            <name locale="it">ERROR DETAILS</name>
+            <name locale="cs">(cs) ERROR DETAILS</name>
+            <name locale="hu">(hu) ERROR DETAILS</name>
+            <name locale="pl">(pl) ERROR DETAILS</name>
+            <name locale="ro">(ro) ERROR DETAILS</name>
+            <name locale="tr">(tr) ERROR DETAILS</name>
+            <name locale="kk">(kk) ERROR DETAILS</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[ERROR DETAILS]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>2000</precision>
+            <scale>0</scale>
+            <size>4002</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">RUN TIME</name>
+            <name locale="fr">TEMPS D'EX&#201;CUTION</name>
+            <name locale="de">LAUFZEIT</name>
+            <name locale="ja">&#23455;&#34892;&#26178;&#38291;</name>
+            <name locale="ru">&#1042;&#1056;&#1045;&#1052;&#1071; &#1056;&#1040;&#1041;&#1054;&#1058;&#1067;</name>
+            <name locale="zh-cn">RUN TIME</name>
+            <name locale="zh-sg">RUN TIME</name>
+            <name locale="zh">RUN TIME</name>
+            <name locale="zh-tw">&#22519;&#34892;&#26178;&#38291;</name>
+            <name locale="ko">&#47088;&#53440;&#51076;</name>
+            <name locale="pt-br">TEMPO DE EXECU&#199;&#195;O</name>
+            <name locale="es">TIEMPO DE EJECUCI&#211;N</name>
+            <name locale="it">RUN TIME</name>
+            <name locale="cs">DOBA B&#282;HU</name>
+            <name locale="hu">FUT&#193;SID&#336;</name>
+            <name locale="pl">CZAS URUCHOMIENIA</name>
+            <name locale="ro">RUN TIME</name>
+            <name locale="tr">&#199;ALI&#350;TIRMA S&#220;RES&#304;</name>
+            <name locale="kk">&#1059;&#1040;&#1178;&#1067;&#1058;&#1058;&#1067; &#1030;&#1057;&#1050;&#1045; &#1178;&#1054;&#1057;&#1059;</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[RUN TIME]</refobj>
+            </expression>
+            <usage>identifier</usage>
+            <datatype>int64</datatype>
+            <precision>19</precision>
+            <scale>0</scale>
+            <size>8</size>
+            <nullable>true</nullable>
+            <regularAggregate>count</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+        </queryItem>
+        <queryItem>
+            <name locale="en">REPORT NAME</name>
+            <name locale="fr">NOM DU RAPPORT</name>
+            <name locale="de">BERICHTSNAME</name>
+            <name locale="ja">&#12524;&#12509;&#12540;&#12488;&#21517;</name>
+            <name locale="ru">&#1048;&#1084;&#1103; &#1086;&#1090;&#1095;&#1077;&#1090;&#1072;</name>
+            <name locale="zh-cn">&#25253;&#34920;&#21517;&#31216;</name>
+            <name locale="zh-sg">&#25253;&#34920;&#21517;&#31216;</name>
+            <name locale="zh">&#25253;&#34920;&#21517;&#31216;</name>
+            <name locale="zh-tw">&#25253;&#34920;&#21517;&#31216;</name>
+            <name locale="ko">REPORT NAME</name>
+            <name locale="pt-br">(pt-br) REPORT NAME</name>
+            <name locale="es">REPORT NAME</name>
+            <name locale="it">REPORT NAME</name>
+            <name locale="cs">(cs) REPORT NAME</name>
+            <name locale="hu">(hu) REPORT NAME</name>
+            <name locale="pl">(pl) REPORT NAME</name>
+            <name locale="ro">(ro) REPORT NAME</name>
+            <name locale="tr">(tr) REPORT NAME</name>
+            <name locale="kk">(kk) REPORT NAME</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[REPORT NAME]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>512</precision>
+            <scale>0</scale>
+            <size>1026</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">PACKAGE</name>
+            <name locale="fr">PACK</name>
+            <name locale="de">PACKAGE</name>
+            <name locale="ja">&#12497;&#12483;&#12465;&#12540;&#12472;</name>
+            <name locale="ru">&#1055;&#1072;&#1082;&#1077;&#1090;</name>
+            <name locale="zh-cn">&#25968;&#25454;&#21253;</name>
+            <name locale="zh-sg">&#25968;&#25454;&#21253;</name>
+            <name locale="zh">&#25968;&#25454;&#21253;</name>
+            <name locale="zh-tw">&#25968;&#25454;&#21253;</name>
+            <name locale="ko">PACKAGE</name>
+            <name locale="pt-br">PACKAGE</name>
+            <name locale="es">PACKAGE</name>
+            <name locale="it">PACKAGE</name>
+            <name locale="cs">(cs) PACKAGE</name>
+            <name locale="hu">(hu) PACKAGE</name>
+            <name locale="pl">(pl) PACKAGE</name>
+            <name locale="ro">(ro) PACKAGE</name>
+            <name locale="tr">(tr) PACKAGE</name>
+            <name locale="kk">(kk) PACKAGE</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[PACKAGE]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>1024</precision>
+            <scale>0</scale>
+            <size>2050</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+        <queryItem>
+            <name locale="en">MODEL</name>
+            <name locale="fr">MOD&#200;LE</name>
+            <name locale="de">MODELL</name>
+            <name locale="ja">&#12514;&#12487;&#12523;</name>
+            <name locale="ru">&#1052;&#1054;&#1044;&#1045;&#1051;&#1068;</name>
+            <name locale="zh-cn">MODEL</name>
+            <name locale="zh-sg">MODEL</name>
+            <name locale="zh">MODEL</name>
+            <name locale="zh-tw">&#27169;&#22411;</name>
+            <name locale="ko">&#47784;&#45944;</name>
+            <name locale="pt-br">MODELO</name>
+            <name locale="es">MODELO</name>
+            <name locale="it">MODELLO</name>
+            <name locale="cs">MODEL</name>
+            <name locale="hu">MODELL</name>
+            <name locale="pl">MODEL</name>
+            <name locale="ro">MODEL</name>
+            <name locale="tr">MODEL</name>
+            <name locale="kk">&#1198;&#1051;&#1043;&#1030;</name>
+            <lastChanged>2021-08-10T18:33:20</lastChanged>
+            <lastChangedBy>admin admin</lastChangedBy>
+            <property name="included" type="hidden">true</property>
+            <expression>
+                <refobj>[Database View].[COGIPF_RUNREPORT].[MODEL]</refobj>
+            </expression>
+            <usage>attribute</usage>
+            <datatype>characterLength16</datatype>
+            <precision>512</precision>
+            <scale>0</scale>
+            <size>1026</size>
+            <nullable>true</nullable>
+            <regularAggregate>unsupported</regularAggregate>
+            <semiAggregate>unsupported</semiAggregate>
+            <collationSequenceName>en</collationSequenceName>
+            <collationSequenceLevel>1</collationSequenceLevel>
+            <originalCollationSequenceName>SQL_Latin1_General_CP1_CI_AS</originalCollationSequenceName>
+        </queryItem>
+    </querySubject>
+    </namespace>
