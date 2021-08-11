@@ -25,7 +25,7 @@ translations = dict()
 # read values from sheet and input into dictionary as key-value pairs
 # change the values to match the specific columns you're looking for on your sheet
 for i in range(sheet.nrows):
-    translations[sheet.cell_value(i, 0)] = sheet.cell_value(i, 1)
+    translations[sheet.cell_value(i, 0).strip()] = sheet.cell_value(i, 1).strip()
 
 ###############################################
 
