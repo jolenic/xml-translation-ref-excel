@@ -19,8 +19,12 @@ excel_full_file = os.path.abspath(os.path.join('data', excel_file_name))
 wb = xlrd.open_workbook(excel_full_file)
 sheet = wb.sheet_by_index(0)
 
-# set up dictionary with default value if no key is found
-translations = defaultdict(lambda: 'no key found')
+# # set up dictionary with default value if no key is found
+# translations = defaultdict(lambda: 'no key found')
+
+# set up dictionary without default value
+translations = dict()
+
 
 # read values from sheet and input into dictionary as key-value pairs
 for i in range(sheet.nrows):
@@ -37,10 +41,22 @@ xml_full_file = os.path.abspath(os.path.join('data', xml_file_name))
 # get element tree for xml file
 dom = ElementTree.parse(xml_full_file)
 
+# create counters to confirm changes made
+changed = 0
+ignored = 0
+
 
 # function for modifying xml text
 def title_changes(og_title):
-    new_title = translations[og_title[0]]
+    if og_title[0] in translations:
+        new_title = translations[og_title[0]]
+        global changed
+        changed += 1
+    else:
+        new_title = og_title
+        global ignored
+        ignored += 1
+
     return new_title
 
 
@@ -51,4 +67,5 @@ for title in dom.iterfind("./to_change/book/title"):
     print('new title: ' + str(title.text))
 
 # write changes back to xml file
+print('Changed: ' + str(changed) + ', Ignored: ' + str(ignored))
 dom.write(xml_full_file)

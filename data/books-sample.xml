@@ -11,7 +11,7 @@
       </book>
       <book id="bk102">
          <author>Ralls, Kim</author>
-         <title>Mike</title>
+         <title>1Sierra</title>
          <genre>Fantasy</genre>
          <price>5.95</price>
          <publish_date>2000-12-16</publish_date>
@@ -44,8 +44,8 @@
    <no_change>
       <book id="bk105">
          <author>Corets, Eva</author>
-         <title>The Sundered Grail</title>
-         <genre>Fantasy</genre>
+         <title>1The Sundered Grail</title>
+         <genre>7Fantasy</genre>
          <price>5.95</price>
          <publish_date>2001-09-10</publish_date>
          <description>The two daughters of Maeve, half-sisters,
